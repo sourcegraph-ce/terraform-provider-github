@@ -2,7 +2,7 @@ package github
 
 import (
 	"context"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/google/go-github/v32/github"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"

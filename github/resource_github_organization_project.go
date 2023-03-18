@@ -3,7 +3,7 @@ package github
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net/http"
 	"strconv"
 
